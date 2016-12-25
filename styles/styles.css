@@ -4,6 +4,7 @@ body {
   background: #111;
   color: #666;
   margin: 0;
+      overflow: hidden;
 }
 
 img {
@@ -61,10 +62,10 @@ input[type=checkbox]:checked + label:before {
 }
 
 .container {
+  overflow: none;
   position: relative;
-  max-width: 600px;
+  max-width: 100vw;
   margin: 0 auto;
-  padding: 5%;
 }
 
 .scene {
@@ -88,47 +89,26 @@ input[type=checkbox]:checked + label:before {
   border: 2px dashed #00FFAA;
 }
 
-.aspect {
-  opacity: 0.2;
-}
-
-.layer:nth-child(1) {
-  opacity: 0.15;
-}
 .layer:nth-child(1) button {
   -webkit-transform: rotate(150deg);
 }
 
-.layer:nth-child(2) {
-  opacity: 0.30;
-}
 .layer:nth-child(2) button {
   -webkit-transform: rotate(120deg);
 }
 
-.layer:nth-child(3) {
-  opacity: 0.45;
-}
 .layer:nth-child(3) button {
   -webkit-transform: rotate(90deg);
 }
 
-.layer:nth-child(4) {
-  opacity: 0.60;
-}
 .layer:nth-child(4) button {
   -webkit-transform: rotate(60deg);
 }
 
-.layer:nth-child(5) {
-  opacity: 0.75;
-}
 .layer:nth-child(5) button {
   -webkit-transform: rotate(30deg);
 }
 
-.layer:nth-child(6) {
-  opacity: 0.90;
-}
+
 .layer:nth-child(6) button {
 }
